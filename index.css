@@ -116,3 +116,30 @@ color: yellow;
      text-align: center;
     
  }
+ .pictures{
+    background-color: white;
+    color: sienna;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3em 0;
+    padding: 0 5%;
+    display: inline-flex;
+
+ }
+ .photos{
+
+    float: left;
+    position: relative;
+    width: 33.3%;
+    text-align: center;
+    display: inline;
+    border: solid sienna;
+    border-radius: 2px;
+    margin: 10px 5px;
+    border-style: ridge;
+    border: 1px solid sienna;
+    border-radius: 1px;
+    
+}
+
+ 
