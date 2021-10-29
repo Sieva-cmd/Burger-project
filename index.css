@@ -1,6 +1,9 @@
 body{
     background-color: white;
 }
+.navbar{
+    border-style: hidden;
+}
 .navbar img {
     float: left;  
 }
@@ -17,6 +20,7 @@ font-display: fallback;
      margin-right: 20px;
      margin-top: 0;
      margin-bottom: 20px;
+     font-weight: bolder;
  }
 
   ul{
@@ -25,4 +29,16 @@ font-display: fallback;
  }
  .navbar i{
      display: inline;
+ }
+ .navbar h1{
+     float: left;
+     font-weight: bolder;
+ }
+ .burger img{
+     float: right;
+     border-style: groove;
+     background-color: yellow;
+     height: 700px; 
+     
+    
  }
