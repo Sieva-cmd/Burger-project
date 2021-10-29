@@ -3,14 +3,19 @@ body{
 }
 .navbar{
     border-style: hidden;
+    border: 1px;
+    box-sizing: border-box;
+    max-width: 970px;
+    min-height:250px ;
+    display: inline-flex;
 }
-.navbar img {
-    float: left;  
+
 }
- .navbar i{
+ .navbar em {
 font-family: cursive;
 font-style: italic;
 font-display: fallback;
+color: yellow;
  }
  .navigation li{
      list-style: none;
@@ -34,11 +39,80 @@ font-display: fallback;
      float: left;
      font-weight: bolder;
  }
- .burger img{
-     float: right;
-     border-style: groove;
-     background-color: yellow;
-     height: 700px; 
+ .navbar img{
+     float: left;
+  
+ }
+ .info{
+     box-sizing: content-box;
+     float: left;
+     position: relative;
+     width: 50%;
+     display: inline;
+
+ }
+
+ .clsimg{
+    float: right;
+    border: 1px;
+    border-style: hidden;
+    background-color: yellow;
+    object-fit: cover;
+    width: 50%;
+    max-height: fit-content;
+
+
+
+
+ }
+ .container{
+     background-color: mintcream;
+     color: sienna;
+     width: 100%;
+     box-sizing: border-box;
+     margin: 3em 0;
+     padding: 0 5%;
+     display: inline-flex;
+
+ }
+
+ .info-container{
+     float: left;
+     position: relative;
+     width: 33.3%;
+     text-align: center;
+     display: inline;
+     border: solid sienna;
+     border-radius: 2px;
+     margin: 10px 5px;
+     border-style: ridge;
      
+ }
+ .our-menu{
+
+     float: left;
+     position: relative;
+     width: 33.3%;
+     text-align: center;
+     display: inline;
+     border: solid sienna;
+     border-radius: 2px;
+     margin: 10px 5px;
+     border-style: ridge;
+     border: 1px solid sienna;
+     border-radius: 1px;
+     
+ }
+ .option-menu{
+    background-color: white;
+    color: sienna;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3em 0;
+    padding: 0 5%;
+    display: inline-flex;
+
+ } menu {
+     text-align: center;
     
  }
