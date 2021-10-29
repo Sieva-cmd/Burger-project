@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+.navbar img {
+    float: left;  
+}
+ .navbar i{
+font-family: cursive;
+font-style: italic;
+font-display: fallback;
+ }
+ .navigation li{
+     list-style: none;
+     display: inline;
+     padding: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 0;
+     margin-bottom: 20px;
+ }
+
+  ul{
+     margin-left: 600px;
+     margin-top: 0;
+ }
+ .navbar i{
+     display: inline;
+ }
