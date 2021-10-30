@@ -208,3 +208,25 @@ color: yellow;
     margin-left: -100px;
     margin-right: 300px;
 }
+.download{
+    background-color: #F6B400;
+    color: sienna;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3em 0;
+    padding: 0 5%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.apps{
+    float: left;
+    position: relative;
+    width: 50%;
+    text-align: left;
+    display: inline;
+    margin: 10px 5px;
+  
+
+}
