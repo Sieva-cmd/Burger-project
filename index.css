@@ -58,10 +58,14 @@ color: #F6B400;
  }
 
  .group a{
-     margin: 20px;
+    margin-top: 200px;
      border-radius: 10px;
      background-color: #F6B400;
-     padding: 10px;
+     padding: 20px;
+ }
+
+ .group p{
+     margin-bottom: 50px;
  }
  .burger{
      text-align: left;
@@ -274,11 +278,12 @@ color: #F6B400;
     color: black;
     width: 100%;
     box-sizing: border-box;
-    margin: 3em 0;
+    margin: 0 0;
     padding: 0 5%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .footer{
