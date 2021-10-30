@@ -119,7 +119,12 @@ color: #F6B400;
      margin: 3em 0;
      padding: 0 5%;
      display: inline-flex;
+   
 
+ }
+ .info-container img{
+     background-color: mintcream;
+     mix-blend-mode: multiply;
  }
 
  .info-container{
