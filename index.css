@@ -15,7 +15,7 @@ body{
 font-family: cursive;
 font-style: italic;
 font-display: fallback;
-color: yellow;
+color: #F6B400;
  }
  .navigation li{
      list-style: none;
@@ -55,6 +55,13 @@ color: yellow;
  }
  .group{
      float: left;
+ }
+
+ .group a{
+     margin: 20px;
+     border-radius: 10px;
+     background-color: #F6B400;
+     padding: 10px;
  }
  .burger{
      text-align: left;
@@ -180,15 +187,16 @@ color: yellow;
     float: left;
     position: relative;
     width: 33.3%;
-    text-align: left;
+    text-align: center;
     display: inline;
     border: solid sienna;
     margin: 10px 5px;
     border-style: ridge;
     border: 1px solid sienna;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
 }
+
+
 .decker{
     background-color: mintcream;
     color: sienna;
