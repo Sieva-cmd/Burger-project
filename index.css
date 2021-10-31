@@ -59,6 +59,7 @@ color: #F6B400;
  }
  .navbar img{
      float: left;
+     
   
  }
  .info{
@@ -125,10 +126,8 @@ color: #F6B400;
     margin-top: 0;
     margin-right: 0;
     position: relative;
-
-
-
-
+    border: 1px solid #F6B400;
+    background-color: #F6B400;
  }
  .container{
      background-color: mintcream;
