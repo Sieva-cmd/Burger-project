@@ -42,6 +42,7 @@ color: #F6B400;
  .navigation ul{
      margin-top: -200px;
  }
+ 
 
   ul{
      margin-left: 600px;
@@ -357,5 +358,8 @@ color: #F6B400;
     display: inline;
     margin: 10px 5px;
    
+}
+ a:hover{
+    color:red;
 }
 
