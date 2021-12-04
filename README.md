@@ -7,6 +7,20 @@ sieva-cmd
 ## Description
 A Burger project multiple view model is to be created for a Software Product Line, which can be tailored to the needs of an individual hotel chain or hotel. The system manages information about rooms, reservations, customers, and customer billing. The system provides functionality for making reservations, check in, and check out, in addition to generating reports and displays. In addition, several optional and variant capabilities are provided.
 
+# set up instructions
+## Requirements
+Either a computer, phone ,or tablet
+
+An access to internet
+
+## Installation
+Click on the link below to view the website https://github.com/Sieva-cmd/Burger-project.git
+
+## Technology used 
+HTML - used to build the structure of the website
+Css -used to style the pages
+
+
 ## mobile suupport
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 

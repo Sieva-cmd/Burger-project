@@ -9,32 +9,34 @@
 </head>
 <body> 
     
-
-    <div class="nav_bar" id="item2">
-        <div class="navigation">
-            <div class="navbar"><img src="images/logo.png" alt="" height="50px"> 
-                
-             <p><strong>Bur</strong><em>ger</em</p> </div> </p>
-        
-   
-           <ul>  
-            <li> <a href="">Home</a> </li> 
-            <li> <a href="">Offers</a> </li>
-            <li> <a href="">Contact</a> </li>
-            <li> <a href=""> About</a></li>
-             <li><img src="images/navbarimg.jpg" alt="" height="50px"></li></ul>
-             
-        </div>
+<header> 
+    <div class="nav_bar" id="item1">
+            <div class="navigation">
+                <div class="navbar"><img src="images/logo.png" alt="" height="50px"> 
+                    
+                <p><strong>Bur</strong><em>ger</em</p> </div> </p>
             
-     
-   <div class="info">         
-            <div class="group" ><h1>Rain or shine,</h1> <h1>its time to shine.</h1>
-            <p>we cook and deliver tastiest burgers </p> <p>right away  to your designated location</p> 
-            <a href="">order now</a></div>
-            <div class="group"><img src="images/[CITYPNG 1.png" alt="" height="600px"> </div> 
-          </div> 
 
-   </div>
+            <ul>  
+                <li> <a href="">Home</a> </li> 
+                <li> <a href="">Offers</a> </li>
+                <li> <a href="">Contact</a> </li>
+                <li> <a href="">About</a></li>
+                <li><img src="images/navbarimg.jpg" alt="" height="50px"></li></ul>
+                
+            </div>
+            
+    
+            <div class="info">         
+                    <div class="group" ><h1>Rain or shine,</h1> <h1>its time to shine.</h1>
+                    <p>we cook and deliver tastiest burgers </p> <p>right away  to your designated location</p> 
+                    <a href="">order now</a></div>
+                    <div class="group"><img src="images/[CITYPNG 1.png" alt="" height="600px"> </div> 
+            </div> 
+
+</div>
+</header>
+    
      
            
 
@@ -63,7 +65,7 @@
 
                 <div class="our-menu">
                     <p> <img src="images/SeekPng 2.png" alt="" height="100px"><h1>Double Burger</h1> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vero recusandae unde, nostrum, et delectus commodi necessitatibus asperiores pariatur corporis blanditiis nulla</p> 
-                      <div class="float-right"><p>ksh 200</p> <img src="images/cart.jpg" alt="" height="40px"> </div> </p>
+                      <p>ksh 200</p> <img src="images/cart.jpg" alt="" height="40px">  </p>
                 </div>
                 
                 <div class="our-menu">
@@ -122,11 +124,18 @@
                            <li>Contact</li>
         </ol></div> 
 
-        <div class="footer"> <p> <strong>Subscribe to our news letter</strong></p> <form action="POST"></form> 
-         <input type="email"  id="email" name="email" placeholder="enter your email"> <button type="submit">Subscribe</button></div>
+        <div class="footer"> <p> <strong>Subscribe to our news letter</strong></p> 
+            
+          <!--<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <input type="email"  id="email" name="email" placeholder="enter your email"> <button type="submit">Subscribe</button>
+        </form>  -->  
+        <form name="myForm" action="/action_page.php"  method="post">
+            <input type="email"  id="email" name="email" placeholder="enter your email" required> <button type="submit">Subscribe</button>
+        </form> 
+         </div>
 
      </div>
-
+            
      <div class="footer-col">
          <div class="columns"><p>copyright 2021. All rights reserved</p> </div> 
          <div><img src="images/facebook.jpg" alt="" height="100px"></div>
@@ -134,4 +143,15 @@
 
 
 </footer>
++
+  <!--<script>
+    function validateForm(){
+        let x = document.forms["myForm"]["email"].value;
+        if (x == "") {
+            alert("please type your email")
+            return false;
+        }
+    }
+</script> -->
+
 </html> 

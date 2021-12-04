@@ -1,6 +1,7 @@
 body{
     background-color: white;
 }
+
 .navbar{
     border-style: hidden;
     border: 1px;
@@ -128,6 +129,7 @@ color: #F6B400;
     position: relative;
     border: 1px solid #F6B400;
     background-color: #F6B400;
+    
  }
  .container{
      background-color: mintcream;
