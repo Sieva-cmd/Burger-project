@@ -27,7 +27,9 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 
  ## Licence
 
-MThe MIT License (MIT)
+ MIT License ()
+
+Copyright (c) [2021] [Sieva Lucia]
 
 Copyright (c) .NET Foundation and Contributors
 
